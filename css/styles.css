@@ -1,0 +1,118 @@
+/*  Colors
+
+    blue - black: #000020
+    yellow: #ffc018
+    light green: #0BEE7C
+    green: #198E6A
+    marine blue: #181E5F
+
+*/
+
+/* Fonts */
+@font-face {
+    font-family: 'LexendDeca';
+    src: url(../fonts/LexendDeca-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'JosefinSans';
+    src: url(../fonts/JosefinSans-VariableFont_wght.ttfs);
+}
+
+/* Scroll Bar */
+    /* width */
+    ::-webkit-scrollbar {
+        width: 15px;
+    }
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #000020 
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #555; 
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #ffc018;
+    }
+
+/* Body */
+    body{
+        background-color: #000020;
+        font-family: 'LexendDeca';
+    }
+
+/* Nav */
+    nav{
+        background-color: #000020;
+    }
+    nav img{
+        height: 6vh;
+    }
+    nav a{
+        color: #ffc018  !important;
+    }
+
+/* Footer */
+    footer{
+        background-color: #181E5F;
+    }
+    footer img{
+        width: 5vh;
+    }
+
+/* index */
+    .presentacion{
+        margin-top: 12vh;
+    }
+    .presentacion img{
+        max-height: 60vh;
+    }
+    section{
+        color: white;
+    }
+    .tag{
+        background-color: #0BEE7C;
+    }
+    .tag:hover{
+        background-color: #198E6A;
+        cursor: pointer;
+        box-shadow: 5px 5px #0BEE7C, 10px 10px #ffc018;
+    }
+    .tarjetas img{
+        max-height: 32vh;
+    }
+    .unam img{
+        max-height: 57vh;
+    }
+    .card{
+        background-color: #181E5F;
+        max-width: 30rem;
+    }
+    blockquote p{
+        font-family: 'JosefinSans';
+    }
+
+/* Resume */
+    .res{
+        margin-top: 12vh;
+    }
+    .list-group{
+        align-items: center;
+    }
+    .skills-prog li{
+        background-color: #181E5F;
+        color: white;
+        width: 50%;
+        border-radius:15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .skills-prog li:hover{
+        background-color: #0BEE7C;
+    }
+    .video{
+        text-align: center;
+    }
